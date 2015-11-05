@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use twitter bootstrap
 gem 'bootstrap-sass'
 
-gem 'cf_sim', path: '/Users/pinzolo/src/github.com/pinzolo/cf_sim'
+gem 'cf_sim'
 gem 'remotipart', '~> 1.2'
 
 # Use ActiveModel has_secure_password
