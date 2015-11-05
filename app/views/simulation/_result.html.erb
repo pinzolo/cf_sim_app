@@ -1,8 +1,8 @@
 <% if results.present? %>
-  <div>Max field count: <%= field_count %></div>
+  <h2>Max field count: <%= field_count %></h2>
 <div class="list-group">
   <% results.each do |result| %>
-    <a href="<%= result.url %>" class="list-group-item"><span class="badge"><%= result.area_rate %></span><%= result.url %></a>
+    <a href="<%= result.url %>" class="list-group-item intel-map-url"><span class="badge"><%= result.area_rate %></span><%= result.url %></a>
   <% end %>
 </div>
 <% end %>
