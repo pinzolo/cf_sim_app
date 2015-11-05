@@ -1,0 +1,16 @@
+<p id="upload_area">
+  <%= form_tag simulation_exec_path, class: 'form-horizontal', remote: true do %>
+    <div class="form-group">
+      <div class="col-sm-6">
+        <%= file_field_tag :portal_data %>
+        <input id="selected_file" class="form-control" type="text" readonly>
+      </div>
+      <div claass="col-sm-2">
+        <button id="select_file" class="btn btn-default" type="button"><span class="glyphicon glyphicon-folder-open"><span></button>
+        <button name="upload" class="btn btn-primary"><span class="glyphicon glyphicon-upload"></span></button>
+      </div>
+    </div>
+  <% end %>
+</p>
+<p id="result_area">
+</p>
