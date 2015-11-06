@@ -6,5 +6,5 @@ jQuery(document).ready ($)->
   $('#select_file').on 'click', ->
     $('#portal_data').trigger('click')
 
-  $('#portal_data').on 'change', ->
+  $(document).on 'change', '#portal_data', ->
     $('#selected_file').val($(@).val())
